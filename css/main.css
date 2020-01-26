@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.top-bar {
+  height: 12.5rem;
+  background-color: #00bcd4;
+  
+}
+
+.body-bar {
+  height: 61rem;
+  background-color: #00a5bb
+}
+
+.contact-bar {
+  height: 8rem;
+  background-color: #008fa1
+}
+
+.nav-bar {
+  height: 6rem;
+  background-color: #007888
+  
+}
+
+.profile-img {
+  margin: -80px auto 20px auto;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  filter: grayscale(80%);
+}
+
+.profile-img:hover {
+  filter: grayscale(40%);
+  transition: 0,5;
+}
+
+.social a {
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-clip: padding-box;
+  font-size: 16px;
+  border: 2px solid rgba(255,255,255,0.8);
+  margin-top: 14px;
+  margin-left: 7px;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 30px;
+  
+}
+
+.contact-align {
+  overflow: auto;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 30px;
+  display: inline-block;
+  color: rgba(255,255,255, .8)
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.navigare {
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: rgba(255,255,255,0.6);
+  font-weight: 500;
+}
+
+
